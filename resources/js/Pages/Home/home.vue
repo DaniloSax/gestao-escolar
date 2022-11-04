@@ -1,5 +1,5 @@
 <template>
-    <h1>chegou no home</h1>
+    <v-alert text="test"></v-alert>
 </template>
 
 <script>
