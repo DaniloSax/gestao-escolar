@@ -1,12 +1,17 @@
 <template>
-    <v-alert text="test"></v-alert>
+    <v-card >
+        <v-card-title primary-title>
+            title
+        </v-card-title>
+        <v-card-text>
+            dsa
+        </v-card-text>
+    </v-card>
 </template>
 
 <script>
-import LayoutBase from '@/layouts/LayoutBase.vue';
 
 export default {
-    // layout: LayoutBase,
 }
 </script>
 
