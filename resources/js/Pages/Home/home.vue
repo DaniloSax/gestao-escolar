@@ -3,8 +3,10 @@
 </template>
 
 <script>
-export default {
+import LayoutBase from '@/layouts/LayoutBase.vue';
 
+export default {
+    // layout: LayoutBase,
 }
 </script>
 

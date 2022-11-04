@@ -4,6 +4,7 @@
         <v-app-bar color="grey-lighten-2"></v-app-bar>
         <v-main>
             <v-card height="200px"></v-card>
+            test2
             <slot />
         </v-main>
     </v-layout>
