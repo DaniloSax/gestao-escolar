@@ -9,6 +9,8 @@ class People extends Model
 {
     use HasFactory;
 
+    protected $table = 'peoples';
+
     protected $fillable = [
         'name',
         'gender',
@@ -30,5 +32,10 @@ class People extends Model
     public function phones()
     {
         return $this->hasMany(Phone::class);
+    }
+
+    public function studend()
+    {
+        return $this->hasOne(Student::class);
     }
 }
