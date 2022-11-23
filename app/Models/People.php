@@ -26,4 +26,9 @@ class People extends Model
     {
         return $this->belongsTo(User::class);
     }
+
+    public function phones()
+    {
+        return $this->hasMany(Phone::class);
+    }
 }
